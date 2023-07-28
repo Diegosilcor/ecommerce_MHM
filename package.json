@@ -1,5 +1,5 @@
 {
-  "name": "miami home",
+  "name": "miami-home-ecuador",
   "version": "1.0.3",
   "description": "ecommerce de miami home en ecuador",
   "keywords": [
@@ -18,7 +18,7 @@
   ],
   "main": "index.js",
   "repository": "https://github.com/Diegosilcor/ecommerce_MHM",
-  "author": "diego silva cordoba",
+  "author": "Diego Silva Cordoba <diegosilvacordoba@hotmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
