@@ -52,9 +52,9 @@ function Product2Cart({product}: {product: IProduct}) {
 					className='btn btn-action'
 					onClick={onAddToCart}
 				>
-					<FontAwesomeIcon icon={faCartPlus} /> Add to cart
+					<FontAwesomeIcon icon={faCartPlus} /> Agregar al carrito de compras
 				</button>
-				: <span className={'text-muted'}>Out of stock</span>
+				: <span className={'text-muted'}>Agotado</span>
 			}
 		</div>
 	);

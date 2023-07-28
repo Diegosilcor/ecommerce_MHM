@@ -40,11 +40,11 @@ export default function CartPage({mainMenu, footerMenu, basicSettings}: ICartPag
 									? <CartItems items={items} setItems={setItems} total={total}/>
 									: <>
 										<p className='cart-page__warning'>
-											Your shopping cart is empty.
+											Su carrito se encuentra vacio.
 										</p>
 										<p className='cart-page__warning'>
 											<Link href='/'>
-												<a className='btn btn-success'>Go shopping!</a>
+												<a className='btn btn-success'>Vamos a comprar!</a>
 											</Link>
 										</p>
 									</>}

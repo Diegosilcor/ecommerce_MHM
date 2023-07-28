@@ -4,9 +4,9 @@ import {faPhoneVolume} from '@fortawesome/free-solid-svg-icons/faPhoneVolume';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 const shippingInfo = [
-	{id: 1, icon: faCalendarAlt, text: 'Extended warranty for 30 days.'},
-	{id: 2, icon: faUndo, text: 'Changed your mind? No problem!'},
-	{id: 3, icon: faPhoneVolume, text: 'Customer support line'},
+	{id: 1, icon: faCalendarAlt, text: 'Garantía extendida por 30 días.'},
+	{id: 2, icon: faUndo, text: '¿Cambiaste de idea? ¡Ningún problema!'},
+	{id: 3, icon: faPhoneVolume, text: 'Línea de atención al cliente'},
 ];
 
 export default function ProductShipping() {

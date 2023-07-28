@@ -7,7 +7,7 @@ import {makeAllMenus} from '../lib/menu';
 export default function ShippingPage({mainMenu, footerMenu}: IShippingPageProps) {
 	return (
 		<MainLayout mainMenu={mainMenu} footerMenu={footerMenu}>
-			<div className={'container-xxl'}>
+			{/* <div className={'container-xxl'}>
 				<h1 className='page-heading page-heading_h1  page-heading_m-h1'>Shipping</h1>
 				<div className='text-container'>
 					<p>
@@ -48,7 +48,7 @@ export default function ShippingPage({mainMenu, footerMenu}: IShippingPageProps)
 						Ex sollicitudin porttitor at a commodo eros cubilia rhoncus sapien montes, mattis mus risus auctor ridiculus etiam aliquam odio duis placerat laoreet, neque quisque imperdiet torquent lacinia dignissim volutpat posuere ut. Parturient maecenas quis etiam et class duis dui laoreet maximus lectus, montes himenaeos varius platea bibendum metus hac dignissim habitasse, elementum dis potenti pulvinar congue dolor malesuada placerat mattis. Felis ad ultrices in pulvinar litora eleifend vestibulum per, cursus iaculis lectus hendrerit urna nisl facilisi, vivamus adipiscing faucibus nulla dignissim hac quis. Cubilia adipiscing augue gravida torquent duis mi non platea, sit conubia vestibulum sem mus nec suspendisse, inceptos amet sodales netus aenean imperdiet ut. Magna iaculis interdum in sed quisque nibh vitae justo netus dolor nunc nec a elementum, consectetur mattis sapien amet tempus per est ante dictum lectus dui fusce.
 					</p>
 				</div>
-			</div>
+			</div> */}
 		</MainLayout>
 	);
 }

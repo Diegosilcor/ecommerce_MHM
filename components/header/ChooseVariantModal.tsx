@@ -18,7 +18,7 @@ export default function ChooseVariantModal() {
 	return (
 		<Modal show={show} onHide={onHide}>
 			<Modal.Header closeButton>
-				<Modal.Title>Please, choose a variant:</Modal.Title>
+				<Modal.Title>Elija una opcion:</Modal.Title>
 			</Modal.Header>
 			<Modal.Body>
 				{product && <>

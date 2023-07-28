@@ -8,7 +8,7 @@ export default function Manufacturer({manufacturer}: {manufacturer: IProductItem
 		<>
 			<dl className='product-attrs__item product-attrs__item_brand'>
 				<dt className='product-attrs__item-name-wrapper'>
-					<span className='product-attrs__item-name'>Brand</span>
+					<span className='product-attrs__item-name'>Marca</span>
 				</dt>
 				<dd className='product-attrs__item-value'>
 					{image && <img

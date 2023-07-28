@@ -40,7 +40,7 @@ export default function BrandSelect({field, onChange, values, displayLimit, idsP
 
 	return (
 		<div className={'mb-3'}>
-			<label className='form-label'>Brand</label>
+			<label className='form-label'>Miami Home</label>
 			<BrandCases
 				manufacturers={visibleBrands}
 				onInput={onInput}

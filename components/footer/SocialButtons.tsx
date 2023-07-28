@@ -25,7 +25,7 @@ export default function SocialButtons() {
 				</div>
 			</div>
 			<p className='page-footer__social-buttons company-info'>
-				All rights reserved. © Boundless-Commerce
+				Todos los derechos reservados. Delta Development Software and Miami Home
 			</p>
 		</>
 	);

@@ -52,7 +52,7 @@ export default function ProductPriceAndBuy({product, selectedVariant, setError, 
 	return (
 		<div className='price-and-buy'>
 			{price.price && <p className={'price-and-buy__price'}>
-				{price.isFrom && <span className={'price-and-buy__from'}>From:</span>}
+				{price.isFrom && <span className={'price-and-buy__from'}>Desde:</span>}
 				<span className={clsx('price-and-buy__current', {'has-old': price.oldPrice})}>
 					{formatCurrency(price.price)}
 				</span>
@@ -80,7 +80,7 @@ export default function ProductPriceAndBuy({product, selectedVariant, setError, 
 						className={'btn btn-action btn-anim btn-lg'}
 						onClick={onBuyBtnClicked}
 					>
-						<FontAwesomeIcon icon={faCartPlus} /> Buy
+						<FontAwesomeIcon icon={faCartPlus} /> Comprar
 					</button>
 				</div>
 			</div>}
